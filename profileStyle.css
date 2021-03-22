@@ -1,1 +1,81 @@
 
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 70em;
+}
+
+
+#header > .container {
+    padding: 3em 0 1em 0;
+    border-bottom: solid 1px #e5e5e5;
+    box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -5px 0px 0px #e5e5e5;
+    text-align: center;
+}
+
+#header h1
+{font-family: 'Arvo';
+    font-weight: 700;
+    color: #2a8ea0;
+    text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+    font-size: 3em;
+    letter-spacing: 13px;
+}
+
+#header p {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #2a8ea0;
+    margin: 2.5px 0 0 0;
+    font-size: 0.85em;
+    letter-spacing: 3px;
+}
+
+#features > .container {
+    padding: 3em 0 1em 0;
+}
+
+#features {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+}
+#features h2{
+    font-family:Open Sans;
+        font-weight: 200;
+        color: #2a8ea0;
+        font-size: 2em;
+        margin-bottom:1em;
+    }
+
+#features h3{
+        font-family:Open Sans;
+        font-weight: 200;
+        color: rgb(117, 185, 216);
+        font-size: 1em;  
+}
+    
+#features p{
+    font-family:Open Sans;
+        font-weight: 100;
+        font-size: px;
+        color: rgb(7, 7, 7);
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(117, 185, 216);
+    margin-bottom: 1em;
+}
+
+#banner{
+    background-size: cover;
+    display: block;
+}
+
+
