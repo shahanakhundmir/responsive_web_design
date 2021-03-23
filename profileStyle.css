@@ -86,7 +86,8 @@
     text-transform: uppercase;
     background: url("images/banner.jpg");
     background-size: cover;
-    padding: 5em 0;
+    padding: 5em;
+    margin-bottom:2em;
 }
 #banner p {
     font-weight: 400;
@@ -97,7 +98,30 @@
     margin: 0;
 }
 
-#banner strong {
-    color: inherit;
+#running h2{
+    font-family:Open Sans;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: rgb(117, 185, 216);
+    font-size: 2em;  
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#running h3{
+    font-family:Open Sans;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: rgb(117, 185, 216);
+    font-size: 1em;  
+}
+
+#running p{
+font-family:Open Sans;
+    font-weight: 100;
+    font-size: 15px;
+    color: rgb(7, 7, 7);
+}
+
 
 
