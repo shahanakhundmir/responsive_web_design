@@ -73,9 +73,31 @@
     margin-bottom: 1em;
 }
 
-#banner{
+#banner .container{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    color: #fff;
+    text-align: center;
+    border-top: solid 2px #53565a;
+    border-bottom: solid 2px #53565a;
+    box-shadow: inset 0px -2px 0px 0px #fff, inset 0px 2px 0px 0px #fff;
+    position: relative;
+    text-transform: uppercase;
+    background: url("images/banner.jpg");
     background-size: cover;
-    display: block;
+    padding: 5em 0;
 }
+#banner p {
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0;
+}
+
+#banner strong {
+    color: inherit;
 
 
